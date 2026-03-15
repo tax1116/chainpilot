@@ -1,4 +1,4 @@
-import kr.co.taek.dev.build.libs
+import io.chainpilot.build.libs
 
 plugins {
     id("global-convention")

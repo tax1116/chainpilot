@@ -1,12 +1,13 @@
-import kr.co.taek.dev.build.JDK_VERSION
-import kr.co.taek.dev.build.libs
+import io.chainpilot.build.JDK_VERSION
+import io.chainpilot.build.libs
 
 plugins {
     kotlin("jvm")
     id("org.jlleitschuh.gradle.ktlint")
 }
 
-group = "kr.co.taek.dev"
+group = "io.chainpilot"
+version = property("version") as String
 
 java {
     toolchain {
